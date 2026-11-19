@@ -20,7 +20,7 @@ monthly_target = st.number_input("Enter monthly sales target in USD:",
 
 
 # Dropdown for region selection
-option = st.selectbox("Choose your favorite color:",
+option = st.selectbox("Choose region:",
                       ["Asian", "Europe", "NA", "Africa"])
 st.write(f"You selected: {option}")
 
